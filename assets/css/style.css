@@ -214,6 +214,8 @@ html{
 
 
 #slider .text-content{
+
+    text-shadow: 0 0 3px #000;
     position: absolute;
     bottom: 100px;
     left: 50%;
