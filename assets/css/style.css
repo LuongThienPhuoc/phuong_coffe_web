@@ -421,6 +421,8 @@ html{
     float: right;
     border: none;
     padding: 10px;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .contact-form .form-submit-btn:hover{
