@@ -201,13 +201,17 @@ html{
 
 #slider {
     position: relative;
+    width: 100%;
     margin-top: 60px;
-    padding-top: 50%;
     background-color: #FFFFF3;
-    background: url('/assets/img/hinh1.jpg') top center / cover no-repeat;
+    /* background: url('/assets/img/hinh1.jpg') top center / cover no-repeat; */
     color: wheat;
-
 }
+
+#slider .anh-nen{
+    width: 100%;
+}
+
 
 #slider .text-content{
     position: absolute;
