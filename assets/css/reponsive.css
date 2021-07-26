@@ -1,0 +1,100 @@
+/* Mobile */
+@media (min-width: 1024px){
+    #header .name{
+        display: inline-block;
+    }
+    
+}
+
+/* Tablet và mobile */
+@media (max-width: 1023px){
+
+.contact-form .form-control{
+    padding: 15px;
+}
+
+.socials-list{
+    font-size: 48px;
+}
+
+}
+
+
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px) {
+    #header .name{
+        display: none;
+    }
+    
+}
+
+
+/* Mobile */
+@media (max-width: 739px){
+    #header .name{
+        display: none;
+    }
+    
+    #nav > li{
+        display: block;
+       
+    }
+
+    #nav {
+        display: inline;
+    }
+
+    #nav .subnav{
+        position: inherit;
+    }
+
+    #nav .subnav a{
+        padding: 5px 41px;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #content .member-list{
+        align-items: center;
+        text-align: center;
+    }
+
+    #content .member-item {
+        margin-top: 60px;
+        width: 50%;
+    }
+
+    #menu .place-item{
+        padding: 16px;
+        width: 100%;
+    }
+
+    #menu .place-body .book-coffee {
+        width: 100%;
+      
+    }
+
+    #contact .col-full{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #slider .text-content{
+        bottom: 40px;
+    }
+
+
+}
+
